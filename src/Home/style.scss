@@ -1,0 +1,23 @@
+.AppContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+  padding-bottom: 50px;
+  background-image: url("backgroundImage.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-size: 100% 100%;
+}
+.inputbox {
+  width: 500px;
+  border-radius: 13px;
+}
+.label {
+  margin-bottom: 50px;
+  font-size: 40px;
+  font-family: "Times New Roman", Times, serif;
+  color: rgb(14, 14, 95);
+}

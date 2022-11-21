@@ -1,0 +1,41 @@
+.App {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+}
+table,
+tr,
+td {
+  border: 1px solid black;
+}
+table {
+  margin: auto;
+}
+.outercolumn {
+  width: 500px;
+  padding: 10px;
+}
+.innercolumn {
+  padding-left: 100px;
+  width: 250px;
+  height: 50px;
+}
+p {
+  height: 30px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+  margin: auto;
+  height: 200px;
+}
+.countryname {
+  font-weight: 500;
+  font-size: 50px;
+  width: auto;
+  margin-left: 150px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: auto;
+}
